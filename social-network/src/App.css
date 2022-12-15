@@ -1,0 +1,46 @@
+.app__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  padding: 0px 15px;  
+  margin: 0px auto;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.header {
+ display: flex;
+ align-items: center; 
+ background-color: green; 
+ height: 100px;
+}
+
+.header__logo img {
+  width: 60px;
+  height: 60px; 
+  margin-left: 15px;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: row;
+  height: 1000px;
+}
+
+.main__banner img {
+  height: 540px;
+  width: 960px;
+  
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color:red;
+  width: 15%;
+}
+
+.content {
+  width: 85%;
+  background-color: orange;
+ }
