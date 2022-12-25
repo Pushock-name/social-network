@@ -1,7 +1,12 @@
+import s from'./Header.module.css';
+
+
+
+
 const Header = () => {
     return (
-        <header className='header'> 
-            <div className='header__logo'>
+        <header className={s.header}> 
+            <div className={s.logo}>
                 <img src=''></img>
             </div>
         </header>  

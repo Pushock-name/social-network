@@ -1,0 +1,15 @@
+.dialogs {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.dialogs__items {
+    padding: 10px;
+}
+
+.messages {
+    width: 80%;
+    padding: 10px;
+}
+
