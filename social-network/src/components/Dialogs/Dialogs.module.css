@@ -11,5 +11,11 @@
 .messages {
     width: 80%;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages button {
+    width: 100px;
 }
 
