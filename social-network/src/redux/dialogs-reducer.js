@@ -46,10 +46,10 @@ export const sendMessageActionCreator = () => {
   }
 };
 
-export const updateNewMessageBodyActionCreator = (text) => {
+export const updateNewMessageBodyActionCreator = (body) => {
   return {
     type: UPDATE_NEW_MESSAGE_BODY,
-    body: text
+    body: body
   }
 };
 
