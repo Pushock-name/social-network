@@ -1,6 +1,7 @@
 .banner img {
-    width: 480px;
-    height: 325px;
+    width: 80%;
+    height: 440px;
+    border-radius: 8px;
 }
 
 .description__box {

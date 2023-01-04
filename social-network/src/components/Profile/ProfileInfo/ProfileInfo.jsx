@@ -7,7 +7,7 @@ const ProfileInfo = () => {
     return (
       <div>
         <div className={s.banner}>
-          <img src="" alt="" />
+          <img src="https://www.kartinki24.ru/uploads/gallery/main/7/kartinki24_ru_anime_83.jpg" alt="Баннер" />
         </div>
         <div className={s.description__box}>
           avatar + description

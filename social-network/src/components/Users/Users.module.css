@@ -1,0 +1,61 @@
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+    height: 100px;
+    gap: 25px;
+    margin-left: 100px;
+}
+
+.avatar__follow__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.avatar img {
+    width: 70px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.userdata__container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.username__status__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.country__city__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.username {
+    padding: 5px;
+}
+
+.status {
+    padding: 5px;
+}
+
+.country {
+    padding: 5px;
+}
+
+.city {
+    padding: 5px;
+}
+
+.selected {
+    color: white;
+}
