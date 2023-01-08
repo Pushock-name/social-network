@@ -1,5 +1,7 @@
 .header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center; 
     background-color: green; 
     height: 100px;
@@ -8,6 +10,14 @@
    .logo img {
      width: 70px;
      height: 70px; 
-     margin-left: 15px;
+     padding-left: 15px;
      border-radius: 5px;
+   }
+
+   .login__box {
+    padding-right: 15px;
+   }
+
+   .login__box a {
+    color: white;
    }

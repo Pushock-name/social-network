@@ -1,6 +1,7 @@
 const SEND_MESSAGE = 'SEND-MESSAGE';
 const UPDATE_NEW_MESSAGE_BODY = 'UPDATE-NEW-MESSAGE-BODY';
 
+
 let initialState = {
   dialogs :  [
     {id: 1, name: 'Павел'},
@@ -19,6 +20,7 @@ let initialState = {
   ],
     newMessageBody: ''
 };
+
 
 const dialogsReducer = (state = initialState, action) => {
 
@@ -56,5 +58,6 @@ export const updateNewMessageBodyActionCreator = (body) => {
     body: body
   }
 };
+
 
 export default dialogsReducer;
