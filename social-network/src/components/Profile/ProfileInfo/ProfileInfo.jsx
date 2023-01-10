@@ -1,15 +1,14 @@
 import Preloader from '../../common/Preloader/Preloader';
 import s from './ProfileInfo.module.css';
-
+import ProfileStatus from './ProfileStatus';
 
 
 
 const ProfileInfo = (props) => {
   if (!props.profile) {
-    console.log(props.profile)
     return <Preloader />
   }
-  
+
     return (
       <div>
         <div className={s.banner}>
@@ -18,20 +17,12 @@ const ProfileInfo = (props) => {
         <div className={s.description__box}>
           <img src={props.profile.photos.large} alt='Аватар пользователя'/>
           <div>Имя: {props.profile.fullName}</div>
-          <div>Место работы: {props.profile.lookingForAJobDescription}</div>
-          <div>Ищу работу: {props.profile.lookingForAJob ? 'Да' : 'Нет'}</div>
-          <div>Контакты:</div>
-          <div>{props.profile.contacts.facebook}</div>
-          <div>{props.profile.contacts.website}</div>
-          <div>{props.profile.contacts.vk}</div>
-          <div>{props.profile.contacts.twitter}</div>
-          <div>{props.profile.contacts.instagram}</div>
-          <div>{props.profile.contacts.youtube}</div>
-          <div>{props.profile.contacts.github}</div>
-          <div>{props.profile.contacts.mainLink}</div>
-        </div>
+          <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
       </div>
-    );
-};
+    </div>
+    )
+  }
 
 export default ProfileInfo;
+
+
