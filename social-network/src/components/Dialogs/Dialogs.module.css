@@ -15,11 +15,3 @@
     flex-direction: column;
 }
 
-.messages button {
-    width: 100px;
-}
-
-.messages textarea {
-    width: 150px;
-}
-
