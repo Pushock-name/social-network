@@ -1,0 +1,9 @@
+$padding: 8px;
+$margin: 8px;
+$radius: 4px;
+
+%btn {
+    border-radius: $radius;
+    border-color: #e0e0e0;
+    box-shadow: 0 0 8px 0 #e0e0e0;
+}
